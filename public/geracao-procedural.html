@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Geração Procedural - Portfólio</title>
+    <meta name="description" content="Projeto de TCC sobre geração procedural de conteúdo com algoritmos avançados">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#F4B089',
+                        'bg-light': '#F7EFE7',
+                        'bg-card': '#EDE3D8',
+                        'text-muted': '#B28A74',
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-bg-dark text-[#5C4636]">
+    <header class="border-b border-slate-700 bg-bg-card/50 backdrop-blur-sm sticky top-0 z-10">
+        <div class="max-w-6xl mx-auto px-4 py-4">
+            <a href="index.html" class="back-button">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                </svg>
+                Voltar ao Portfólio
+            </a>
+        </div>
+    </header>
+
+    <section class="py-20 px-4">
+        <div class="max-w-4xl mx-auto text-center fade-in">
+            <h1 class="text-5xl md:text-6xl font-bold mb-6">
+                <span class="gradient-text">Sistema de Geração Procedural</span>
+            </h1>
+            <p class="text-xl text-text-muted mb-8 max-w-2xl mx-auto">
+                Projeto de TCC focado em geração procedural para simulação de planejaemento urbano em pequena escaala
+                atraves da aplicação de L-Systems e regras parametricas.
+            </p>
+            <div class="flex flex-wrap gap-2 justify-center">
+                <span class="badge">Godot</span>
+                <span class="badge">Artigo de Pesquisa</span>
+                <span class="badge">L-System</span>
+                <span class="badge">Aplicação de Matriz</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 px-4 bg-bg-card/30">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold mb-8 text-center fade-in-scroll">
+                Capturas de Tela
+            </h2>
+            <div class="space-y-8">
+                <div class="screenshot-container fade-in-scroll">
+                    <img src="img/procedural_tela_1.png" alt="Tela 1 do Sistema de Estoque" loading="lazy">
+                </div>
+
+                <div class="screenshot-container fade-in-scroll">
+                    <img src="img/procedural_tela_2.png" alt="Tela 2 do Sistema de Estoque" loading="lazy">
+                </div>
+
+                <div class="screenshot-container fade-in-scroll">
+                    <img src="img/procedural_tela_3.png" alt="Tela 3 do Sistema de Estoque" loading="lazy">
+                </div>
+
+                <div class="screenshot-container fade-in-scroll">
+                    <img src="img/procedural_tela_4.png" alt="Tela 4 do Sistema de Estoque" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="py-20 px-4">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold mb-8 text-center fade-in-scroll">
+                Algoritmos e Técnicas Implementados
+            </h2>
+
+            <div class="grid md:grid-cols-2 gap-8">
+
+                <div class="skill-card fade-in-scroll">
+                    <h3 class="text-xl font-semibold mb-4">Matriz Base Estrutural</h3>
+                    <ul class="feature-list">
+                        <li>
+                            <svg class="feature-icon w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7" />
+                            </svg>
+                            <span class="text-text-muted">
+                                Uso de uma matriz inicial composta por valores 0 representando áreas não definidas
+                            </span>
+                        </li>
+                        <li>
+                            <svg class="feature-icon w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7" />
+                            </svg>
+                            <span class="text-text-muted">
+                                Estrutura matricial para simular malhas urbanas
+                            </span>
+                        </li>
+                        <li>
+                            <svg class="feature-icon w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7" />
+                            </svg>
+                            <span class="text-text-muted">
+                                Processamento célula a célula para evitar sobreposições incoerentes
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="skill-card fade-in-scroll">
+                    <h3 class="text-xl font-semibold mb-4">L-Systems Paramétricos</h3>
+                    <ul class="feature-list">
+                        <li>
+                            <svg class="feature-icon w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7" />
+                            </svg>
+                            <span class="text-text-muted">
+                                Cada número possui regras específicas de substituição e expansão
+                            </span>
+                        </li>
+                        <li>
+                            <svg class="feature-icon w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7" />
+                            </svg>
+                            <span class="text-text-muted">
+                                Expansão limitada por possibilidades pré-definidas (ex: 1 não gera 3 sem regra
+                                explícita)
+                            </span>
+                        </li>
+                        <li>
+                            <svg class="feature-icon w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7" />
+                            </svg>
+                            <span class="text-text-muted">
+                                Geração sequencial para simular evolução orgânica e modular
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="skill-card fade-in-scroll">
+                    <h3 class="text-xl font-semibold mb-4">Regras Paramétricas Legais</h3>
+                    <ul class="feature-list">
+                        <li>
+                            <svg class="feature-icon w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7" />
+                            </svg>
+                            <span class="text-text-muted">
+                                Implementação de parâmetros urbanísticos reais (largura de vias, espaçamentos, etc.)
+                            </span>
+                        </li>
+                        <li>
+                            <svg class="feature-icon w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7" />
+                            </svg>
+                            <span class="text-text-muted">
+                                Validação automática de zoneamento e permissões de uso
+                            </span>
+                        </li>
+                        <li>
+                            <svg class="feature-icon w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7" />
+                            </svg>
+                            <span class="text-text-muted">
+                                Regras formais para prevenir gerações impossíveis ou ilegais
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="skill-card fade-in-scroll">
+                    <h3 class="text-xl font-semibold mb-4">Coerência Estrutural Procedural</h3>
+                    <ul class="feature-list">
+                        <li>
+                            <svg class="feature-icon w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7" />
+                            </svg>
+                            <span class="text-text-muted">
+                                Checagens de conectividade para manter vias integradas
+                            </span>
+                        </li>
+                        <li>
+                            <svg class="feature-icon w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7" />
+                            </svg>
+                            <span class="text-text-muted">
+                                Controle de densidade e distribuição de quadras
+                            </span>
+                        </li>
+                        <li>
+                            <svg class="feature-icon w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7" />
+                            </svg>
+                            <span class="text-text-muted">
+                                Incremento procedural supervisionado para refinamento urbano
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 px-4 bg-bg-card/30">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold mb-8 text-center fade-in-scroll">
+                Detalhes Técnicos e Acadêmicos
+            </h2>
+            <div class="space-y-6">
+
+                <div class="skill-card fade-in-scroll">
+                    <h3 class="text-xl font-semibold mb-4">Arquitetura do Sistema</h3>
+                    <div class="space-y-4 text-text-muted">
+                        <p>
+                            A arquitetura do sistema integra normas urbanísticas, geração procedural e representação
+                            visual em um processo contínuo. As regras legais são convertidas em parâmetros que alimentam
+                            um L-System adaptado, responsável por expandir a malha viária a partir de um ponto inicial,
+                            controlando direções, bifurcações e limites de crescimento. Essa matriz gerada é então
+                            traduzida automaticamente em elementos gráficos na Tilemap Layer do Godot, permitindo que
+                            cada instrução abstrata se torne um componente visual da malha urbana.
+                        </p>
+                        <p>
+                            Após a geração, o sistema aplica verificações que corrigem trechos incompletos, removem
+                            redundâncias e impedem sobreposições, garantindo coerência estrutural e aderência às
+                            dimensões exigidas pela legislação. Dessa forma, a arquitetura combina um núcleo generativo
+                            baseado em regras, uma camada visual modular e um estágio de validação que assegura que o
+                            resultado final seja simultaneamente plausível, consistente e compatível com os parâmetros
+                            urbanos definidos.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="skill-card fade-in-scroll">
+                    <h3 class="text-xl font-semibold mb-4">Resultados e Conclusões</h3>
+                    <div class="space-y-4 text-text-muted">
+                        <p>
+                            O sistema proposto buscou simular o planejamento de malhas viárias de bairros residenciais
+                            por meio da aplicação de métodos de geração procedural, para produção de um arcabouço
+                            metodológico para o desenvolvimento de pesquisas futuras sobre este tópico.
+                        </p>
+                        <p>
+                            O sistema desenvolvido com base em geração procedural, em específico L-System, demonstrou
+                            potencial na simulação em pequena escala, atendendo parcialmente aos objetivos propostos.
+                            Como aspectos positivos, tem destaque a capacidade de gerar malhas viárias coerentes com a
+                            morfologia de bairros residenciais, integrando regras urbanísticas locais de forma
+                            funcional, mesmo em cenários simplificados, tendo em vista a ausência de modelagem e
+                            consideração de relevo.
+                        </p>
+                        <p>
+                            Por outro lado, constatou-se que a abordagem simplificada adotada apresenta limitações
+                            significativas. Entre elas, inclui-se o baixo nível de controle sobre a orientação das vias,
+                            resultando em inconsistências no sentido do fluxo viário e em bifurcações que, em alguns
+                            casos, não se concretizam devido a restrições de coerência espacial. Tais limitações
+                            comprometem a funcionalidade do modelo.
+                        </p>
+                        <p>
+                            Em síntese, embora o sistema tenha se mostrado viável para a geração básica de estruturas
+                            urbanas, futuros trabalhos deverão abordar o refinamento do controle direcional e a
+                            incorporação de variáveis adicionais, como topografia e filtragem da coerência de sentido em
+                            vias, para ampliar a aplicabilidade e robustez do sistema em contextos de planejamento real.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="border-t border-slate-700 bg-bg-card/50 backdrop-blur-sm">
+        <div class="max-w-6xl mx-auto px-4 py-8">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-text-muted text-sm">
+                    © <span id="year"></span> Portfólio. Todos os direitos reservados.
+                </p>
+                <div class="flex gap-4">
+                    <a href="https://github.com/Donovan-Silva" target="_blank"
+                        class="text-text-muted hover:text-primary transition-colors" aria-label="GitHub">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/vinicius-donovan-51a895330/" target="_blank"
+                        class="text-text-muted hover:text-primary transition-colors" aria-label="LinkedIn">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
